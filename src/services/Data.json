@@ -1,0 +1,29 @@
+{
+    "Holiday":[
+        {
+            "date": "Sun, 19 May",
+            "name": "Mohthers Day",
+            "type": "Observances"
+        },
+        {
+            "date": "Tue, 25 May",
+            "name": "Teacher Day",
+            "type": "National"
+        },
+        {
+            "date": "Thur, 27 May",
+            "name": "Childrens Day",
+            "type": "Observances"
+        },
+        {
+            "date": "Fri, 29 May",
+            "name": "Democracy Day",
+            "type": "National"
+        },
+        {
+            "date": "Mon, 02 jun",
+            "name": "Salah",
+            "type": "National"
+        }
+    ]
+}
