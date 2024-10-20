@@ -603,6 +603,7 @@ html, body {
   padding: 0.5rem 1rem;
   border-radius: 4px; 
   cursor: pointer;
+  width: 90px;
 }
 
 .schedule-img{
@@ -842,6 +843,10 @@ html, body {
     max-width: 180px;
   }
 
+  .dot-int p{
+    font-size:14px ;
+  }
+
   .line-graph {
     max-width: 400px;
     margin-left: 0;
@@ -909,6 +914,31 @@ html, body {
   width: 100%;
   height: 100%;
 }
+
+.schedule-intervive{
+  left: 0;
+  margin-left: 0;
+}
+
+.schedele-details {
+    padding: 10px 20px;
+    margin-left: -2rem;
+  }
+
+  .interview-detials {
+    align-items: flex-start;
+  }
+
+  .schedule-info{
+    gap: 5px;
+  }
+
+  .schedule-info  strong, p{
+    font-size: 10px;
+  }
+
+  
+
 }
 
 @media (max-width:468px){
