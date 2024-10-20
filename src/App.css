@@ -202,7 +202,6 @@ html, body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 5px 5px;
   flex: 1;             
-  min-width: 200px;
   max-width: 300px;    
   display: flex;
   flex-direction: column;
@@ -822,7 +821,7 @@ html, body {
 
   .main-page {
     margin-left: 0;
-    margin-top: 4rem;
+    margin-top: 7rem;
     flex-direction: column;
     left: -4em;
     width: 70%;
@@ -840,7 +839,7 @@ html, body {
     gap: 5px;
   }
   .total-users{
-    max-width: 200px;
+    max-width: 180px;
   }
 
   .line-graph {
@@ -852,7 +851,6 @@ html, body {
     flex-direction: column;
   }
   .pienut{
-    background-color: green;
     max-width: 380px;
     margin-left: 1rem;
    
@@ -913,13 +911,38 @@ html, body {
 }
 }
 
-/* @media (max-width:468px){
+@media (max-width:468px){
   .total-users{
-    background-color: green;
     flex-direction: column;
     width: 500px;
   }
-} */
+
+  .line-graph{
+    max-width: 380px;
+  }
+  .pienut{
+    max-width: 350px;
+    margin-left: 1rem;
+  }
+
+  .doughnut, .pie-chart{
+    margin-left: 5rem;
+    
+  }
+  
+.interview, .Holiday{
+  max-width: 350px;
+}
+.modal-type {
+  margin-left: -4rem;
+  margin-top: -3rem;
+}
+
+.modal-holiday-info {
+  margin-left: -4rem;
+  margin-top: 2rem;
+}
+}
 
 
 

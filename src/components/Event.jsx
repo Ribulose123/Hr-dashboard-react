@@ -30,12 +30,12 @@ const Event = () => {
       </div>
 
       <div className="event-shows">
-        <img src="/public/image/event.jpeg" alt="" />
-        <img src="/public/image/event2.jpeg" alt="" />
-        <img src="/public/image/event1.jpeg" alt="" />
-        <img src="/public/image/event 5.jpeg" alt="" />
-        <img src="/public/image/event3.jpeg" alt="" />
-        <img src="/public/image/event6.jpeg" alt="" />
+        <img src="/image/event.jpeg" alt="" />
+        <img src="/image/event2.jpeg" alt="" />
+        <img src="/image/event1.jpeg" alt="" />
+        <img src="/image/event 5.jpeg" alt="" />
+        <img src="/image/event3.jpeg" alt="" />
+        <img src="/image/event6.jpeg" alt="" />
       </div>
 
       <div className="show-button">

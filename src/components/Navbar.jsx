@@ -24,7 +24,7 @@ const Navbar = () => {
     <div className='navbar'>
         <div className="label-logo">
            <div className="logo">
-                <img src="/public/image/logo1.jpeg" alt=""  width={20} height={20}/>
+                <img src="/image/logo1.jpeg" alt=""  width={20} height={20}/>
                 <h3>Metplay</h3>
            </div>
            <div className="morning">
@@ -42,7 +42,7 @@ const Navbar = () => {
            <IoFolderOpen className='floder'/>
            </div>
            <div className="hr-page">
-                <img src="/public/image/man.jpeg" alt="" width={20} height={20} />
+                <img src="/image/man.jpeg" alt="" width={20} height={20} />
                 <div className='rephel'>
                     <h3>Ralph Schliefer</h3>
                     <p>HR Manger</p>
