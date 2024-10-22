@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Main from './components/Main';
 import Event from './components/Event';
+import Team from './components/Team';
 
 import Employees from './components/Employees'
 import { InterviewProvider } from './services/InterviewContent';
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<Main />} />
             <Route path="/employees" element={<Employees />} />
             <Route path="/event" element={<Event />} />
+            <Route path="/team" element={<Team />} />
           </Routes>
           </Router>
         </InterviewProvider>

@@ -779,6 +779,88 @@ html, body {
   border-color: #888;
 }
 
+/* Team */
+
+.team{
+  flex: 1;
+  position: relative;
+  margin-top: 8rem;
+ /*  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  right: 9rem;
+}
+
+.team h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  left: -25rem;
+}
+.employees-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  position: fixed;
+  left: 16rem;
+  margin-top: 1rem;
+}
+
+.filter-id {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-left: -85rem;
+}
+
+.filter-id input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.employees-info {
+  background-color: #1f1d1f;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  gap: 4rem;
+  align-items: center;
+  color: white;
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+.employees-info:hover {
+  transform: translateY(-5px);
+}
+.users-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.user-image {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-image img {
+  border-radius: 50%;
+}
+
+.user-id ,.email-id{
+    margin-top: 10px;
+}
+
 
 @media (max-width:768px){
   .input-search, .morning, .bell-icon, .folder-icon, .hr-page {
@@ -871,7 +953,7 @@ html, body {
 }
 .event {
   margin-left: 0;
-  margin-top: 5rem;
+  margin-top: 1rem;
   padding: 10px;
 }
 
@@ -879,6 +961,7 @@ html, body {
   gap: 1rem;
   align-items: flex-start;
   justify-content: space-between;
+  margin-top: 1rem;
 }
 
 .event-header .Luclock {
@@ -937,6 +1020,40 @@ html, body {
     font-size: 10px;
   }
 
+  .team {
+    margin-top: 8rem;
+    right: 2rem;
+  }
+
+  .team h2 {
+    left: 0;
+    font-size: 1.5rem;
+  }
+
+  .employees-list{
+    grid-template-columns: repeat(2, 1fr);
+    left: 2rem;
+    position: relative;
+    left: 0;
+    margin-top: 1rem;
+  }
+  .filter-id {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .filter-id input{
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .employees-info {
+    padding: 20px;
+    font-size: 14px;
+   
+  }
+
+
   
 
 }
@@ -975,6 +1092,22 @@ html, body {
 
 .event{
   margin-top: 7rem;
+}
+
+.team{
+  left: -2rem;
+}
+.team h2{
+  font-size: 1.2rem;
+}
+
+.employees-info{
+  padding: 5px;
+  font-size: 15px
+}
+
+.filter-id input{
+  max-width: 250px;
 }
 }
 

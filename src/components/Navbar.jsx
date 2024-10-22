@@ -63,7 +63,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link>
+                    <Link  to='/team' onClick={closeMenu}>
                         <IoLogoSteam className='nav-icon'/>
                         <span>Team</span>
                     </Link>
